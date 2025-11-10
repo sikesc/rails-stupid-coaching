@@ -1,0 +1,14 @@
+<div class="container">
+  <h1 class="mb-3">Stupid Coaching</h1>
+
+  <div class="row">
+    <p><%= params[:ask] %></p>
+    <p>- You</p>
+  </div>
+  <div class="row">
+    <p><%= @answer %></p>
+    <p>- Your Coach</p>
+  </div>
+
+  <%= link_to "As something else", ask_path, class: "btn btn-primary" %>
+</div>
